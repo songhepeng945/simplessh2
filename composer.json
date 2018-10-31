@@ -1,0 +1,24 @@
+{
+    "name": "simplessh2/ssh2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "945shp",
+            "email": "1014786263@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ssh2\\": "./ssh2"
+        }
+    },
+    "suggest": {
+        "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations.",
+        "ext-ssh2": "Install the ssh2 extension in order to speed up a wide variety of cryptographic operations."
+    }
+}
